@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/php/catchData.php" id="form">
+        <div class="registration__form_container">
+            <input value=""  class="input _check " type="text" name="login" id="getSignUpName" placeholder="login">
+            <input  class="input _check" type="email" name="email" id="getSignUpEmail" placeholder="email">
+            <input  class="input _check" type="password" name="password" id="getSignUpPassword" placeholder="passwrod">
+            <input  class="input _check " type="password" name="repeatPassword" id="getSignUpRepeatPassword" placeholder="repeat password">
+            <div class="checkbox__container">
+                <input  checked class="  checkbox _check" type="checkbox"  id="getSignUpRepeatCheckBox" >
+                <a href="#!">соглсен соглашаться с чем могу согласиться</a>
+            </div>
+            <button type="submit" class="input_btn gradient" id="btnClick">send</button>
+            
+        </div>
+    </form>
+    <script src="./js/main.js"></script>
+</body>
+</html>
