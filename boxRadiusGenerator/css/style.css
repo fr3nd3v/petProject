@@ -1,0 +1,56 @@
+body{    
+    background-color: black;}
+
+.cssgenerator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.blockOne {
+    display: block;
+    color: #fff;
+}
+.blockTwo {
+    display: block;
+      color: #fff;
+}
+.blockThree {
+    display: block;
+      color: #fff;
+}
+.blockFour {
+    display: block;
+      color: #fff;
+}
+
+.textcss{
+    font-size: 20px;
+    color: #fff;
+}
+
+#block {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-top: 100px;
+    color: #fff;
+}
+
+.width {
+    color: #fff;
+}
+.Height {
+    color: #fff;
+}
+
+.block2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-top: 100px;
+    color: #fff;
+  margin: 100px  auto;
+  border-radius: 100px 24px 100px 0px;
+}
