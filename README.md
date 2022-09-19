@@ -16,3 +16,6 @@ Here will be presented mostly the projects I use to teach js
 
 ## ValidationForm (PHP + JS)
 authorization and registration in php and js
+
+
+## boxRadiusGenerator
